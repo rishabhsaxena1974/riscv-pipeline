@@ -15,7 +15,7 @@ is itself checked with injected bugs. It closes timing at 100 MHz on an Artix-7.
 | Mutation check | **8 of 8** injected pipeline bugs caught |
 | Timing | **100 MHz** on Artix-7 `xc7a35tcpg236-1` (10 ns clock, WNS +0.054 ns, post-route) |
 | Area | 1,959 LUTs (1,083 logic + 876 distributed RAM), 452 flip-flops, 0 BRAM, 0 DSP. Includes 4 KB instruction and 1 KB data memory |
-| CPI | 1.04 (ALU test) to 1.46 (bubble sort); see the table below |
+| CPI | 1.04 (ALU test) to 1.68 (branch test); 1.46 on bubble sort, a real program; see the table below |
 
 ## Architecture
 
